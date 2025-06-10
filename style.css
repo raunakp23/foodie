@@ -1,0 +1,261 @@
+/* *{
+    font-family: 'Courgette', cursive;
+} */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    padding: 5px;
+    box-shadow: 0px 4px 7px 4px rgb(24,24,24);
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+nav ul a{
+   text-decoration: none;
+   color: white;
+   margin-inline: 30px;
+}
+
+nav button{
+    width:80px ;
+    height: 28px;
+    background-color: #d10e0e;
+    color: white;
+    font-size: 18px;
+    border-radius:2px ;
+    border: none;
+}
+nav button:hover{
+    border: 2px solid red;
+    background-color: transparent;
+}
+
+nav ul{
+    margin-right: 33px;
+}
+
+.logo{
+    margin-left: 22px;
+}
+
+.logo h1{
+    position:absolute;
+    top: -15px;
+    font-size: 33px;
+    font-family: 'Courgette', cursive;
+    color: red;
+    border-radius: 3px;
+    border-bottom: 4px solid red;
+    border-bottom-right-radius: 27px;
+}
+/* main */
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 175px;
+}
+.main .mainText h1{
+    font-size: 48px;
+
+}
+
+.main .mainText h2{
+    font-size: 33px;
+    color: rgb(19, 87, 171);
+    
+}
+.main .mainText p{
+    color: silver;
+}
+.mainText button{
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 22px;
+}
+.mainText button:hover{
+    border: 3px solid red;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.main img{
+    width: 33%;
+}
+.head{
+    text-align: center;
+    margin-top: 25px;
+    padding: 75px;
+}
+.head span{
+    color: rgb(19, 87, 171);
+}
+
+/* cards */
+
+.card{
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.card .crd{
+    width: 300px;
+    background-color: white;
+    margin-inline: 22px;
+    color: black;
+}
+
+.foodText button{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius:2px ;
+    border: none;
+}
+.crd .foodText{
+    padding: 22px;
+}
+.crd img{
+    width: 100%;
+}
+
+.crd:hover{
+    background-color: gray;
+    color: white;
+}
+
+/* best dish */
+.best{
+    display: flex;
+    width: 800px;
+    background-color: white;
+    color: black;
+    margin-top: 33px;
+    margin-left: 25%;
+}
+.best img{
+    width: 48%;
+}
+.best .bestText{
+    padding: 22PX;
+}
+.bestText img{
+    border-radius: 50%;
+}
+.bestText{
+    text-align: center;
+}
+
+.bestText a{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius:2px ;
+    border: none;
+    width: 130px;
+    padding: 8px;
+
+    text-decoration: none;
+}
+
+/* track */
+.order{
+    display: flex;
+    justify-content: center;
+}
+.orderText button{
+    width:130px;
+    height: 36px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius:2px ;
+    border: none;
+}
+.orderText i{
+    font-size: 177px;
+    color: red;
+}
+
+.orderText i:hover{
+    color: blue;
+}
+
+.orderText{
+    margin-inline: 111px;
+}
+
+/* footer side  */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232,230,230);
+    color: black;
+    padding: 55px;
+    margin-top: 84px;
+}
+
+
+
+/* login page css */
+#loginPage{
+   width: 190px; 
+   padding: 22px;
+   display: none;
+   background-color: wheat;
+   position: absolute;
+   text-align: center;
+   margin-left: 81%;
+   top: 16%;
+}
+
+#loginPage input{
+    width: 170px;
+    padding: 4px;
+    border: 2px solid #00aaff;
+    outline: none;
+    margin-top: 11px;
+}
+
+#loginPage button{
+    width: 100px;
+    height: 30px;
+    margin-top: 12px;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* tracking */
+.tracking{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 175px;
+    display: none;
+}
+.tracking img{
+    width: 44%;
+}
